@@ -4,7 +4,6 @@ import gleam/list
 import gleam/result
 import gleam/string.{uppercase}
 import glint
-import glssh_core.{type SshConfig}
 
 fn connect() -> glint.Command(Nil) {
   use <- glint.command_help("Yet another SSH client written in Gleam")
